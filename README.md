@@ -1,0 +1,33 @@
+Excel Viewer & Data Entry Form Application
+
+Overview:
+The Excel Viewer & Data Entry Form application is a user-friendly tool developed using the tkinter library and openpyxl to provide users with the ability to view and enter data into an Excel spreadsheet. The application offers a combination of features, including a data entry form, an Excel viewer, and a dark/light theme toggle.
+
+Key Features:
+1. Excel Viewer:
+The application allows users to view the contents of an Excel spreadsheet directly within the interface.
+The Excel Viewer displays data in a tabular format, including columns for Name, Age, Subscription, and Employment.
+2. Data Entry Form:
+Users can easily input new data through a user-friendly data entry form.
+The form includes fields for entering Name, Age, Subscription, and Employment details.
+The Age field is facilitated by a Spinbox with up and down buttons for easy selection.
+The Subscription field is a dropdown menu (Combobox) with options for "Registered," "Not Registered," and "Other."
+The Employment field is a checkbox indicating whether the individual is employed or unemployed.
+3. Inserting Data:
+The "Insert" button triggers the insertion of entered data into both the Excel sheet and the displayed table.
+After insertion, the form fields are cleared for the user's convenience.
+4. Dark/Light Theme Toggle:
+Users can switch between dark and light themes using the provided toggle button.
+The dark theme is set as the default.
+
+How to Use:
+Viewing Data: Upon launching the application, existing data from the specified Excel file is loaded and displayed in the table.
+Entering Data:
+
+Navigate to the "Insert Row" section.
+Enter the individual's Name, select their Age, Subscription status, and check the Employment status.
+Click the "Insert" button to add the data to both the Excel sheet and the displayed table.
+Theme Toggle:
+
+Find the "Mode" toggle button in the "Insert Row" section.
+Switch between dark and light themes by toggling the button.
